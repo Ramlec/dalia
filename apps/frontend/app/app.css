@@ -1,0 +1,9 @@
+@import '@mantine/core/styles.css';
+
+html, body {
+    height: 100%;
+    background-image: url('../public/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

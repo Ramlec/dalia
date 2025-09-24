@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "transform": "tsx scripts/transformData.ts",
+    "db:create": "tsx scripts/insertData.ts",
+    "db:setup": "npm run transform && npm run db:create"
+  },
+  "dependencies": {
+    "@fastify/compress": "^8.1.0",
+    "@fastify/cors": "^11.1.0",
+    "fastify": "^5.6.0",
+    "fastify-type-provider-zod": "^6.0.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

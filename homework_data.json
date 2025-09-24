@@ -1,0 +1,1966 @@
+{
+  "firstname": "John",
+  "lastname": "Doe",
+  "sleep": {
+    "1/08/2025": {
+      "duration": "6h 48min.",
+      "mean_hr": 54.0,
+      "bedtime": "12:42 AM",
+      "waketime": "7:30 AM",
+      "score": 72.0
+    },
+    "1/04/2025": {
+      "duration": "8h 39min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:59 AM",
+      "waketime": "10:41 AM",
+      "score": 96.0
+    },
+    "1/02/2025": {
+      "duration": "9h 45min.",
+      "mean_hr": 54.0,
+      "bedtime": "11:01 PM",
+      "waketime": "9:06 AM",
+      "score": 83.0
+    },
+    "1/01/2025": {
+      "duration": "8h 58min.",
+      "mean_hr": 56.0,
+      "bedtime": "4:45 AM",
+      "waketime": "1:43 PM",
+      "score": 80.0
+    },
+    "1/07/2025": {
+      "duration": "6h 30min.",
+      "mean_hr": 49.0,
+      "bedtime": "2:13 AM",
+      "waketime": "8:45 AM",
+      "score": 82.0
+    },
+    "1/06/2025": {
+      "duration": "6h 53min.",
+      "mean_hr": 56.0,
+      "bedtime": "2:15 AM",
+      "waketime": "9:24 AM",
+      "score": 72.0
+    },
+    "1/05/2025": {
+      "duration": "5h 17min.",
+      "mean_hr": 54.0,
+      "bedtime": "2:11 AM",
+      "waketime": "8:59 AM",
+      "score": 40.0
+    },
+    "1/03/2025": {
+      "duration": "6h 42min.",
+      "mean_hr": 59.0,
+      "bedtime": "2:40 AM",
+      "waketime": "9:46 AM",
+      "score": 69.0
+    },
+    "1/09/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "10/08/2025": {
+      "duration": "8h 18min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:13 AM",
+      "waketime": "8:39 AM",
+      "score": 89.0
+    },
+    "10/04/2025": {
+      "duration": "7h 50min.",
+      "mean_hr": 47.0,
+      "bedtime": "12:29 AM",
+      "waketime": "8:22 AM",
+      "score": 99.0
+    },
+    "10/02/2025": {
+      "duration": "6h 1min.",
+      "mean_hr": 54.0,
+      "bedtime": "12:15 AM",
+      "waketime": "7:08 AM",
+      "score": 62.0
+    },
+    "10/01/2025": {
+      "duration": "3h 42min.",
+      "mean_hr": 57.0,
+      "bedtime": "1:48 AM",
+      "waketime": "7:58 AM",
+      "score": 22.0
+    },
+    "10/07/2025": {
+      "duration": "7h 44min.",
+      "mean_hr": 47.0,
+      "bedtime": "12:42 AM",
+      "waketime": "8:40 AM",
+      "score": 85.0
+    },
+    "10/06/2025": {
+      "duration": "8h 19min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:50 AM",
+      "waketime": "9:22 AM",
+      "score": 84.0
+    },
+    "10/05/2025": {
+      "duration": "7h 10min.",
+      "mean_hr": 55.0,
+      "bedtime": "12:45 AM",
+      "waketime": "8:01 AM",
+      "score": 75.0
+    },
+    "10/03/2025": {
+      "duration": "4h 38min.",
+      "mean_hr": 57.0,
+      "bedtime": "11:38 PM",
+      "waketime": "4:16 AM",
+      "score": 52.0
+    },
+    "10/09/2025": {
+      "duration": "8h 9min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:45 PM",
+      "waketime": "8:09 AM",
+      "score": 85.0
+    },
+    "11/08/2025": {
+      "duration": "5h 19min.",
+      "mean_hr": 54.0,
+      "bedtime": "4:45 AM",
+      "waketime": "10:29 AM",
+      "score": 52.0
+    },
+    "11/04/2025": {
+      "duration": "5h 47min.",
+      "mean_hr": 50.0,
+      "bedtime": "2:54 AM",
+      "waketime": "9:01 AM",
+      "score": 73.0
+    },
+    "11/02/2025": {
+      "duration": "7h 0min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:39 AM",
+      "waketime": "7:44 AM",
+      "score": 80.0
+    },
+    "11/01/2025": {
+      "duration": "8h 2min.",
+      "mean_hr": 56.0,
+      "bedtime": "12:27 AM",
+      "waketime": "8:56 AM",
+      "score": 49.0
+    },
+    "11/07/2025": {
+      "duration": "6h 25min.",
+      "mean_hr": 56.0,
+      "bedtime": "1:34 AM",
+      "waketime": "8:18 AM",
+      "score": 74.0
+    },
+    "11/06/2025": {
+      "duration": "7h 46min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:32 AM",
+      "waketime": "8:18 AM",
+      "score": 90.0
+    },
+    "11/05/2025": {
+      "duration": "8h 44min.",
+      "mean_hr": 52.0,
+      "bedtime": "10:59 PM",
+      "waketime": "7:56 AM",
+      "score": 83.0
+    },
+    "11/03/2025": {
+      "duration": "5h 52min.",
+      "mean_hr": 61.0,
+      "bedtime": "2:59 AM",
+      "waketime": "8:53 AM",
+      "score": 71.0
+    },
+    "11/09/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "12/08/2025": {
+      "duration": "6h 6min.",
+      "mean_hr": 52.0,
+      "bedtime": "2:17 AM",
+      "waketime": "8:23 AM",
+      "score": 76.0
+    },
+    "12/04/2025": {
+      "duration": "8h 18min.",
+      "mean_hr": 52.0,
+      "bedtime": "11:56 PM",
+      "waketime": "8:46 AM",
+      "score": 81.0
+    },
+    "12/02/2025": {
+      "duration": "5h 52min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:46 PM",
+      "waketime": "5:38 AM",
+      "score": 72.0
+    },
+    "12/01/2025": {
+      "duration": "6h 52min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:58 PM",
+      "waketime": "8:30 AM",
+      "score": 66.0
+    },
+    "12/07/2025": {
+      "duration": "6h 50min.",
+      "mean_hr": 53.0,
+      "bedtime": "1:05 AM",
+      "waketime": "7:57 AM",
+      "score": 74.0
+    },
+    "12/06/2025": {
+      "duration": "7h 1min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:24 AM",
+      "waketime": "7:45 AM",
+      "score": 83.0
+    },
+    "12/05/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "12/03/2025": {
+      "duration": "14min.",
+      "mean_hr": 60.0,
+      "bedtime": "7:48 AM",
+      "waketime": "8:02 AM",
+      "score": null
+    },
+    "12/09/2025": {
+      "duration": "8h 45min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:44 PM",
+      "waketime": "8:30 AM",
+      "score": 87.0
+    },
+    "13/08/2025": {
+      "duration": "6h 37min.",
+      "mean_hr": 49.0,
+      "bedtime": "1:29 AM",
+      "waketime": "8:17 AM",
+      "score": 81.0
+    },
+    "13/04/2025": {
+      "duration": "7h 5min.",
+      "mean_hr": 54.0,
+      "bedtime": "3:23 AM",
+      "waketime": "10:45 AM",
+      "score": 77.0
+    },
+    "13/02/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "13/01/2025": {
+      "duration": "9h 30min.",
+      "mean_hr": 54.0,
+      "bedtime": "12:13 AM",
+      "waketime": "9:53 AM",
+      "score": 88.0
+    },
+    "13/07/2025": {
+      "duration": "6h 26min.",
+      "mean_hr": 56.0,
+      "bedtime": "2:02 AM",
+      "waketime": "8:29 AM",
+      "score": 78.0
+    },
+    "13/06/2025": {
+      "duration": "5h 5min.",
+      "mean_hr": 49.0,
+      "bedtime": "3:13 AM",
+      "waketime": "8:18 AM",
+      "score": 64.0
+    },
+    "13/05/2025": {
+      "duration": "7h 16min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:53 PM",
+      "waketime": "7:32 AM",
+      "score": 81.0
+    },
+    "13/03/2025": {
+      "duration": "6h 33min.",
+      "mean_hr": 59.0,
+      "bedtime": "1:46 AM",
+      "waketime": "8:19 AM",
+      "score": 77.0
+    },
+    "13/09/2025": {
+      "duration": "8h 30min.",
+      "mean_hr": 57.0,
+      "bedtime": "12:02 AM",
+      "waketime": "8:33 AM",
+      "score": 84.0
+    },
+    "14/08/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "14/04/2025": {
+      "duration": "6h 55min.",
+      "mean_hr": 55.0,
+      "bedtime": "4:39 AM",
+      "waketime": "11:47 AM",
+      "score": 56.0
+    },
+    "14/02/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "14/01/2025": {
+      "duration": "6h 41min.",
+      "mean_hr": 51.0,
+      "bedtime": "3:50 AM",
+      "waketime": "10:34 AM",
+      "score": 79.0
+    },
+    "14/07/2025": {
+      "duration": "9h 44min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:10 AM",
+      "waketime": "9:56 AM",
+      "score": 85.0
+    },
+    "14/06/2025": {
+      "duration": "6h 45min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:55 AM",
+      "waketime": "8:48 AM",
+      "score": 74.0
+    },
+    "14/05/2025": {
+      "duration": "6h 57min.",
+      "mean_hr": 47.0,
+      "bedtime": "12:13 AM",
+      "waketime": "7:27 AM",
+      "score": 88.0
+    },
+    "14/03/2025": {
+      "duration": "6h 41min.",
+      "mean_hr": 56.0,
+      "bedtime": "12:41 AM",
+      "waketime": "7:34 AM",
+      "score": 72.0
+    },
+    "14/09/2025": {
+      "duration": "7h 42min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:56 PM",
+      "waketime": "8:05 AM",
+      "score": 72.0
+    },
+    "15/08/2025": {
+      "duration": "5h 8min.",
+      "mean_hr": 54.0,
+      "bedtime": "1:25 AM",
+      "waketime": "6:52 AM",
+      "score": 61.0
+    },
+    "15/04/2025": {
+      "duration": "8h 43min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:41 PM",
+      "waketime": "8:24 AM",
+      "score": 92.0
+    },
+    "15/02/2025": {
+      "duration": "8h 29min.",
+      "mean_hr": 52.0,
+      "bedtime": "10:22 PM",
+      "waketime": "6:51 AM",
+      "score": 90.0
+    },
+    "15/01/2025": {
+      "duration": "8h 51min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:24 PM",
+      "waketime": "8:17 AM",
+      "score": 95.0
+    },
+    "15/07/2025": {
+      "duration": "7h 31min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:20 AM",
+      "waketime": "8:00 AM",
+      "score": 84.0
+    },
+    "15/06/2025": {
+      "duration": "8h 8min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:07 AM",
+      "waketime": "8:54 AM",
+      "score": 81.0
+    },
+    "15/05/2025": {
+      "duration": "4h 15min.",
+      "mean_hr": 57.0,
+      "bedtime": "2:43 AM",
+      "waketime": "7:09 AM",
+      "score": 48.0
+    },
+    "15/03/2025": {
+      "duration": "7h 31min.",
+      "mean_hr": 61.0,
+      "bedtime": "12:07 AM",
+      "waketime": "7:48 AM",
+      "score": 73.0
+    },
+    "15/09/2025": {
+      "duration": "7h 58min.",
+      "mean_hr": 54.0,
+      "bedtime": "11:07 PM",
+      "waketime": "7:39 AM",
+      "score": 67.0
+    },
+    "16/08/2025": {
+      "duration": "6h 44min.",
+      "mean_hr": 55.0,
+      "bedtime": "2:43 AM",
+      "waketime": "9:50 AM",
+      "score": 72.0
+    },
+    "16/04/2025": {
+      "duration": "8h 43min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:30 PM",
+      "waketime": "9:03 AM",
+      "score": 86.0
+    },
+    "16/02/2025": {
+      "duration": "8h 10min.",
+      "mean_hr": 57.0,
+      "bedtime": "11:16 PM",
+      "waketime": "7:27 AM",
+      "score": 85.0
+    },
+    "16/01/2025": {
+      "duration": "7h 37min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:50 AM",
+      "waketime": "8:46 AM",
+      "score": 87.0
+    },
+    "16/07/2025": {
+      "duration": "7h 41min.",
+      "mean_hr": 55.0,
+      "bedtime": "12:18 AM",
+      "waketime": "8:19 AM",
+      "score": 73.0
+    },
+    "16/06/2025": {
+      "duration": "6h 6min.",
+      "mean_hr": 55.0,
+      "bedtime": "2:53 AM",
+      "waketime": "9:00 AM",
+      "score": 55.0
+    },
+    "16/05/2025": {
+      "duration": "9h 23min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:48 PM",
+      "waketime": "9:11 AM",
+      "score": 91.0
+    },
+    "16/03/2025": {
+      "duration": "2h 52min.",
+      "mean_hr": 60.0,
+      "bedtime": "11:16 AM",
+      "waketime": "2:11 PM",
+      "score": null
+    },
+    "16/09/2025": {
+      "duration": "7h 16min.",
+      "mean_hr": 54.0,
+      "bedtime": "12:54 AM",
+      "waketime": "8:19 AM",
+      "score": 80.0
+    },
+    "17/08/2025": {
+      "duration": "5h 49min.",
+      "mean_hr": 56.0,
+      "bedtime": "5:12 AM",
+      "waketime": "11:26 AM",
+      "score": 60.0
+    },
+    "17/04/2025": {
+      "duration": "5h 43min.",
+      "mean_hr": 52.0,
+      "bedtime": "3:11 AM",
+      "waketime": "8:54 AM",
+      "score": 72.0
+    },
+    "17/02/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "17/01/2025": {
+      "duration": "7h 15min.",
+      "mean_hr": 57.0,
+      "bedtime": "12:54 AM",
+      "waketime": "8:37 AM",
+      "score": 68.0
+    },
+    "17/07/2025": {
+      "duration": "8h 3min.",
+      "mean_hr": 48.0,
+      "bedtime": "11:47 PM",
+      "waketime": "7:50 AM",
+      "score": 94.0
+    },
+    "17/06/2025": {
+      "duration": "7h 58min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:36 AM",
+      "waketime": "8:34 AM",
+      "score": 94.0
+    },
+    "17/05/2025": {
+      "duration": "5h 0min.",
+      "mean_hr": 56.0,
+      "bedtime": "4:34 AM",
+      "waketime": "9:51 AM",
+      "score": 47.0
+    },
+    "17/03/2025": {
+      "duration": "8h 59min.",
+      "mean_hr": 58.0,
+      "bedtime": "2:45 AM",
+      "waketime": "11:58 AM",
+      "score": 60.0
+    },
+    "17/09/2025": {
+      "duration": "7h 53min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:17 AM",
+      "waketime": "8:11 AM",
+      "score": 90.0
+    },
+    "18/08/2025": {
+      "duration": "6h 39min.",
+      "mean_hr": 51.0,
+      "bedtime": "3:00 AM",
+      "waketime": "9:44 AM",
+      "score": 79.0
+    },
+    "18/04/2025": {
+      "duration": "7h 39min.",
+      "mean_hr": 54.0,
+      "bedtime": "11:35 PM",
+      "waketime": "8:15 AM",
+      "score": 65.0
+    },
+    "18/02/2025": {
+      "duration": "7h 22min.",
+      "mean_hr": 57.0,
+      "bedtime": "11:55 PM",
+      "waketime": "7:18 AM",
+      "score": 75.0
+    },
+    "18/01/2025": {
+      "duration": "8h 23min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:49 AM",
+      "waketime": "9:20 AM",
+      "score": 90.0
+    },
+    "18/07/2025": {
+      "duration": "7h 51min.",
+      "mean_hr": 47.0,
+      "bedtime": "12:02 AM",
+      "waketime": "7:59 AM",
+      "score": 89.0
+    },
+    "18/06/2025": {
+      "duration": "6h 45min.",
+      "mean_hr": 48.0,
+      "bedtime": "1:54 AM",
+      "waketime": "8:41 AM",
+      "score": 93.0
+    },
+    "18/05/2025": {
+      "duration": "7h 42min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:38 AM",
+      "waketime": "8:20 AM",
+      "score": 86.0
+    },
+    "18/03/2025": {
+      "duration": "6h 31min.",
+      "mean_hr": 57.0,
+      "bedtime": "1:38 AM",
+      "waketime": "8:09 AM",
+      "score": 75.0
+    },
+    "18/09/2025": {
+      "duration": "7h 39min.",
+      "mean_hr": 49.0,
+      "bedtime": "11:45 PM",
+      "waketime": "7:31 AM",
+      "score": 85.0
+    },
+    "19/08/2025": {
+      "duration": "9h 14min.",
+      "mean_hr": 47.0,
+      "bedtime": "10:22 PM",
+      "waketime": "7:45 AM",
+      "score": 98.0
+    },
+    "19/04/2025": {
+      "duration": "8h 12min.",
+      "mean_hr": 49.0,
+      "bedtime": "11:50 PM",
+      "waketime": "8:03 AM",
+      "score": 90.0
+    },
+    "19/02/2025": {
+      "duration": "9h 7min.",
+      "mean_hr": 60.0,
+      "bedtime": "10:30 PM",
+      "waketime": "7:41 AM",
+      "score": 64.0
+    },
+    "19/01/2025": {
+      "duration": "3h 5min.",
+      "mean_hr": 57.0,
+      "bedtime": "5:56 AM",
+      "waketime": "9:20 AM",
+      "score": 25.0
+    },
+    "19/07/2025": {
+      "duration": "8h 7min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:35 PM",
+      "waketime": "7:50 AM",
+      "score": 94.0
+    },
+    "19/06/2025": {
+      "duration": "6h 6min.",
+      "mean_hr": 49.0,
+      "bedtime": "2:41 AM",
+      "waketime": "9:00 AM",
+      "score": 77.0
+    },
+    "19/05/2025": {
+      "duration": "6h 2min.",
+      "mean_hr": 54.0,
+      "bedtime": "5:01 AM",
+      "waketime": "11:22 AM",
+      "score": 58.0
+    },
+    "19/03/2025": {
+      "duration": "6h 2min.",
+      "mean_hr": 57.0,
+      "bedtime": "1:44 AM",
+      "waketime": "7:48 AM",
+      "score": 63.0
+    },
+    "19/09/2025": {
+      "duration": "7h 35min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:58 AM",
+      "waketime": "8:52 AM",
+      "score": 84.0
+    },
+    "2/08/2025": {
+      "duration": "8h 51min.",
+      "mean_hr": 54.0,
+      "bedtime": "1:01 AM",
+      "waketime": "9:54 AM",
+      "score": 84.0
+    },
+    "2/04/2025": {
+      "duration": "7h 2min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:15 AM",
+      "waketime": "8:18 AM",
+      "score": 82.0
+    },
+    "2/02/2025": {
+      "duration": "5h 59min.",
+      "mean_hr": 59.0,
+      "bedtime": "3:04 AM",
+      "waketime": "9:11 AM",
+      "score": 63.0
+    },
+    "2/01/2025": {
+      "duration": "6h 56min.",
+      "mean_hr": 49.0,
+      "bedtime": "2:20 AM",
+      "waketime": "9:16 AM",
+      "score": 83.0
+    },
+    "2/07/2025": {
+      "duration": "4h 40min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:09 AM",
+      "waketime": "5:58 AM",
+      "score": 63.0
+    },
+    "2/06/2025": {
+      "duration": "7h 55min.",
+      "mean_hr": 56.0,
+      "bedtime": "2:46 AM",
+      "waketime": "10:47 AM",
+      "score": 70.0
+    },
+    "2/05/2025": {
+      "duration": "9h 42min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:33 PM",
+      "waketime": "9:15 AM",
+      "score": 94.0
+    },
+    "2/03/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "2/09/2025": {
+      "duration": "8h 58min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:38 PM",
+      "waketime": "8:37 AM",
+      "score": 91.0
+    },
+    "20/08/2025": {
+      "duration": "9h 31min.",
+      "mean_hr": 47.0,
+      "bedtime": "10:59 PM",
+      "waketime": "8:42 AM",
+      "score": 88.0
+    },
+    "20/04/2025": {
+      "duration": "6h 32min.",
+      "mean_hr": 56.0,
+      "bedtime": "2:06 AM",
+      "waketime": "8:39 AM",
+      "score": 73.0
+    },
+    "20/02/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "20/01/2025": {
+      "duration": "9h 36min.",
+      "mean_hr": 57.0,
+      "bedtime": "12:58 AM",
+      "waketime": "10:35 AM",
+      "score": 86.0
+    },
+    "20/07/2025": {
+      "duration": "7h 17min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:53 PM",
+      "waketime": "7:41 AM",
+      "score": 83.0
+    },
+    "20/06/2025": {
+      "duration": "7h 19min.",
+      "mean_hr": 48.0,
+      "bedtime": "1:47 AM",
+      "waketime": "9:06 AM",
+      "score": 91.0
+    },
+    "20/05/2025": {
+      "duration": "8h 47min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:28 PM",
+      "waketime": "8:15 AM",
+      "score": 95.0
+    },
+    "20/03/2025": {
+      "duration": "6h 36min.",
+      "mean_hr": 55.0,
+      "bedtime": "1:47 AM",
+      "waketime": "8:23 AM",
+      "score": 79.0
+    },
+    "20/09/2025": {
+      "duration": "7h 19min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:39 AM",
+      "waketime": "7:59 AM",
+      "score": 83.0
+    },
+    "21/08/2025": {
+      "duration": "7h 19min.",
+      "mean_hr": 47.0,
+      "bedtime": "12:14 AM",
+      "waketime": "7:33 AM",
+      "score": 95.0
+    },
+    "21/04/2025": {
+      "duration": "9h 42min.",
+      "mean_hr": 56.0,
+      "bedtime": "1:17 AM",
+      "waketime": "10:59 AM",
+      "score": 79.0
+    },
+    "21 Dec.": {
+      "duration": "7h 5min.",
+      "mean_hr": 59.0,
+      "bedtime": "2:54 AM",
+      "waketime": "10:02 AM",
+      "score": 49.0
+    },
+    "21/02/2025": {
+      "duration": "8h 16min.",
+      "mean_hr": 54.0,
+      "bedtime": "10:33 PM",
+      "waketime": "7:12 AM",
+      "score": 82.0
+    },
+    "21/01/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "21/07/2025": {
+      "duration": "10h 58min.",
+      "mean_hr": 51.0,
+      "bedtime": "10:54 PM",
+      "waketime": "10:02 AM",
+      "score": 96.0
+    },
+    "21/06/2025": {
+      "duration": "4h 35min.",
+      "mean_hr": 61.0,
+      "bedtime": "5:00 AM",
+      "waketime": "9:51 AM",
+      "score": 45.0
+    },
+    "21/05/2025": {
+      "duration": "7h 54min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:04 AM",
+      "waketime": "8:27 AM",
+      "score": 84.0
+    },
+    "21/03/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "21/09/2025": {
+      "duration": "6h 9min.",
+      "mean_hr": 53.0,
+      "bedtime": "2:33 AM",
+      "waketime": "9:01 AM",
+      "score": 72.0
+    },
+    "22/08/2025": {
+      "duration": "9h 16min.",
+      "mean_hr": 48.0,
+      "bedtime": "10:28 PM",
+      "waketime": "8:02 AM",
+      "score": 87.0
+    },
+    "22/04/2025": {
+      "duration": "8h 25min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:29 AM",
+      "waketime": "8:58 AM",
+      "score": 85.0
+    },
+    "22 Dec.": {
+      "duration": "8h 45min.",
+      "mean_hr": 52.0,
+      "bedtime": "11:33 PM",
+      "waketime": "8:18 AM",
+      "score": 91.0
+    },
+    "22/02/2025": {
+      "duration": "8h 21min.",
+      "mean_hr": 55.0,
+      "bedtime": "11:15 PM",
+      "waketime": "7:45 AM",
+      "score": 86.0
+    },
+    "22/01/2025": {
+      "duration": "9h 56min.",
+      "mean_hr": 56.0,
+      "bedtime": "11:00 PM",
+      "waketime": "9:01 AM",
+      "score": 88.0
+    },
+    "22/07/2025": {
+      "duration": "7h 21min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:38 AM",
+      "waketime": "8:02 AM",
+      "score": 86.0
+    },
+    "22/06/2025": {
+      "duration": "6h 36min.",
+      "mean_hr": 52.0,
+      "bedtime": "2:14 AM",
+      "waketime": "8:50 AM",
+      "score": 82.0
+    },
+    "22/05/2025": {
+      "duration": "4h 27min.",
+      "mean_hr": 57.0,
+      "bedtime": "12:08 AM",
+      "waketime": "5:05 AM",
+      "score": 50.0
+    },
+    "22/03/2025": {
+      "duration": "6h 24min.",
+      "mean_hr": 62.0,
+      "bedtime": "1:05 AM",
+      "waketime": "7:33 AM",
+      "score": 68.0
+    },
+    "22/09/2025": {
+      "duration": "6h 53min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:25 AM",
+      "waketime": "7:18 AM",
+      "score": 75.0
+    },
+    "23/08/2025": {
+      "duration": "6h 7min.",
+      "mean_hr": 52.0,
+      "bedtime": "2:04 AM",
+      "waketime": "9:48 AM",
+      "score": 55.0
+    },
+    "23/04/2025": {
+      "duration": "7h 7min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:54 AM",
+      "waketime": "8:25 AM",
+      "score": 82.0
+    },
+    "23 Dec.": {
+      "duration": "8h 20min.",
+      "mean_hr": 55.0,
+      "bedtime": "12:30 AM",
+      "waketime": "8:50 AM",
+      "score": 91.0
+    },
+    "23/02/2025": {
+      "duration": "5h 33min.",
+      "mean_hr": 55.0,
+      "bedtime": "2:38 AM",
+      "waketime": "8:11 AM",
+      "score": 71.0
+    },
+    "23/01/2025": {
+      "duration": "4h 36min.",
+      "mean_hr": 53.0,
+      "bedtime": "3:42 AM",
+      "waketime": "8:18 AM",
+      "score": 57.0
+    },
+    "23/07/2025": {
+      "duration": "6h 43min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:16 AM",
+      "waketime": "8:23 AM",
+      "score": 70.0
+    },
+    "23/06/2025": {
+      "duration": "5h 57min.",
+      "mean_hr": 52.0,
+      "bedtime": "3:27 AM",
+      "waketime": "9:29 AM",
+      "score": 73.0
+    },
+    "23/05/2025": {
+      "duration": "6h 33min.",
+      "mean_hr": 56.0,
+      "bedtime": "1:27 AM",
+      "waketime": "8:13 AM",
+      "score": 77.0
+    },
+    "23/03/2025": {
+      "duration": "6h 14min.",
+      "mean_hr": 54.0,
+      "bedtime": "1:30 AM",
+      "waketime": "7:45 AM",
+      "score": 79.0
+    },
+    "23/09/2025": {
+      "duration": "8h 21min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:23 PM",
+      "waketime": "7:46 AM",
+      "score": 84.0
+    },
+    "24/08/2025": {
+      "duration": "8h 30min.",
+      "mean_hr": 58.0,
+      "bedtime": "1:12 AM",
+      "waketime": "11:23 AM",
+      "score": 45.0
+    },
+    "24/04/2025": {
+      "duration": "7h 25min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:10 AM",
+      "waketime": "8:36 AM",
+      "score": 85.0
+    },
+    "24 Dec.": {
+      "duration": "9h 37min.",
+      "mean_hr": 52.0,
+      "bedtime": "10:55 PM",
+      "waketime": "8:51 AM",
+      "score": 87.0
+    },
+    "24/02/2025": {
+      "duration": "9h 11min.",
+      "mean_hr": 58.0,
+      "bedtime": "10:34 PM",
+      "waketime": "8:13 AM",
+      "score": 81.0
+    },
+    "24/01/2025": {
+      "duration": "8h 17min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:34 AM",
+      "waketime": "8:51 AM",
+      "score": 86.0
+    },
+    "24/07/2025": {
+      "duration": "7h 58min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:02 AM",
+      "waketime": "8:00 AM",
+      "score": 95.0
+    },
+    "24/06/2025": {
+      "duration": "8h 49min.",
+      "mean_hr": 52.0,
+      "bedtime": "11:49 PM",
+      "waketime": "8:45 AM",
+      "score": 86.0
+    },
+    "24/05/2025": {
+      "duration": "6h 0min.",
+      "mean_hr": 56.0,
+      "bedtime": "1:46 AM",
+      "waketime": "7:46 AM",
+      "score": 75.0
+    },
+    "24/03/2025": {
+      "duration": "9h 1min.",
+      "mean_hr": 57.0,
+      "bedtime": "1:28 AM",
+      "waketime": "11:00 AM",
+      "score": 59.0
+    },
+    "24/09/2025": {
+      "duration": "7h 41min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:09 AM",
+      "waketime": "7:59 AM",
+      "score": 89.0
+    },
+    "25/08/2025": {
+      "duration": "8h 58min.",
+      "mean_hr": 47.0,
+      "bedtime": "11:20 PM",
+      "waketime": "8:18 AM",
+      "score": 96.0
+    },
+    "25/04/2025": {
+      "duration": "6h 57min.",
+      "mean_hr": 55.0,
+      "bedtime": "1:05 AM",
+      "waketime": "8:17 AM",
+      "score": 77.0
+    },
+    "25 Dec.": {
+      "duration": "9h 44min.",
+      "mean_hr": 58.0,
+      "bedtime": "11:28 PM",
+      "waketime": "9:44 AM",
+      "score": 72.0
+    },
+    "25/02/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "25/01/2025": {
+      "duration": "7h 6min.",
+      "mean_hr": 55.0,
+      "bedtime": "1:21 AM",
+      "waketime": "8:28 AM",
+      "score": 77.0
+    },
+    "25/07/2025": {
+      "duration": "6h 39min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:21 AM",
+      "waketime": "7:00 AM",
+      "score": 78.0
+    },
+    "25/06/2025": {
+      "duration": "5h 38min.",
+      "mean_hr": 50.0,
+      "bedtime": "2:46 AM",
+      "waketime": "8:34 AM",
+      "score": 72.0
+    },
+    "25/05/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "25/03/2025": {
+      "duration": "8h 35min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:13 AM",
+      "waketime": "8:50 AM",
+      "score": 97.0
+    },
+    "25/09/2025": {
+      "duration": "7h 5min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:29 AM",
+      "waketime": "7:35 AM",
+      "score": 83.0
+    },
+    "26/08/2025": {
+      "duration": "5h 43min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:48 PM",
+      "waketime": "9:04 AM",
+      "score": 39.0
+    },
+    "26/04/2025": {
+      "duration": "3h 35min.",
+      "mean_hr": 57.0,
+      "bedtime": "5:58 AM",
+      "waketime": "9:40 AM",
+      "score": 28.0
+    },
+    "26 Dec.": {
+      "duration": "8h 20min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:01 AM",
+      "waketime": "8:21 AM",
+      "score": 84.0
+    },
+    "26/02/2025": {
+      "duration": "8h 39min.",
+      "mean_hr": 55.0,
+      "bedtime": "11:17 PM",
+      "waketime": "7:57 AM",
+      "score": 88.0
+    },
+    "26/01/2025": {
+      "duration": "8h 3min.",
+      "mean_hr": 55.0,
+      "bedtime": "11:34 PM",
+      "waketime": "7:45 AM",
+      "score": 73.0
+    },
+    "26/07/2025": {
+      "duration": "6h 16min.",
+      "mean_hr": 50.0,
+      "bedtime": "2:37 AM",
+      "waketime": "9:16 AM",
+      "score": 76.0
+    },
+    "26/06/2025": {
+      "duration": "6h 11min.",
+      "mean_hr": 52.0,
+      "bedtime": "2:14 AM",
+      "waketime": "8:26 AM",
+      "score": 75.0
+    },
+    "26/05/2025": {
+      "duration": "3h 26min.",
+      "mean_hr": 58.0,
+      "bedtime": "10:51 AM",
+      "waketime": "2:22 PM",
+      "score": 45.0
+    },
+    "26/03/2025": {
+      "duration": "7h 58min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:30 AM",
+      "waketime": "8:30 AM",
+      "score": 99.0
+    },
+    "27/08/2025": {
+      "duration": "9h 52min.",
+      "mean_hr": 43.0,
+      "bedtime": "10:54 PM",
+      "waketime": "8:50 AM",
+      "score": 98.0
+    },
+    "27/04/2025": {
+      "duration": "9h 17min.",
+      "mean_hr": 57.0,
+      "bedtime": "11:44 PM",
+      "waketime": "9:26 AM",
+      "score": 80.0
+    },
+    "27 Dec.": {
+      "duration": "4h 19min.",
+      "mean_hr": 59.0,
+      "bedtime": "4:55 AM",
+      "waketime": "9:25 AM",
+      "score": 53.0
+    },
+    "27/02/2025": {
+      "duration": "6h 30min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:51 PM",
+      "waketime": "6:25 AM",
+      "score": 77.0
+    },
+    "27/01/2025": {
+      "duration": "9h 1min.",
+      "mean_hr": 59.0,
+      "bedtime": "1:11 AM",
+      "waketime": "10:35 AM",
+      "score": 74.0
+    },
+    "27/07/2025": {
+      "duration": "7h 37min.",
+      "mean_hr": 49.0,
+      "bedtime": "1:17 AM",
+      "waketime": "9:05 AM",
+      "score": 91.0
+    },
+    "27/06/2025": {
+      "duration": "6h 2min.",
+      "mean_hr": 51.0,
+      "bedtime": "2:30 AM",
+      "waketime": "8:32 AM",
+      "score": 74.0
+    },
+    "27/05/2025": {
+      "duration": "7h 39min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:56 AM",
+      "waketime": "8:56 AM",
+      "score": 80.0
+    },
+    "27/03/2025": {
+      "duration": "8h 32min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:06 AM",
+      "waketime": "8:42 AM",
+      "score": 88.0
+    },
+    "28/08/2025": {
+      "duration": "7h 5min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:02 AM",
+      "waketime": "8:10 AM",
+      "score": 80.0
+    },
+    "28/04/2025": {
+      "duration": "9h 57min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:48 PM",
+      "waketime": "10:26 AM",
+      "score": 92.0
+    },
+    "28 Dec.": {
+      "duration": "8h 31min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:53 AM",
+      "waketime": "9:37 AM",
+      "score": 85.0
+    },
+    "28/02/2025": {
+      "duration": "6h 47min.",
+      "mean_hr": 52.0,
+      "bedtime": "11:45 PM",
+      "waketime": "6:39 AM",
+      "score": 74.0
+    },
+    "28/01/2025": {
+      "duration": "8h 15min.",
+      "mean_hr": 58.0,
+      "bedtime": "11:45 PM",
+      "waketime": "8:37 AM",
+      "score": 72.0
+    },
+    "28/07/2025": {
+      "duration": "9h 10min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:40 AM",
+      "waketime": "9:54 AM",
+      "score": 89.0
+    },
+    "28/06/2025": {
+      "duration": "7h 37min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:26 AM",
+      "waketime": "9:24 AM",
+      "score": 81.0
+    },
+    "28/05/2025": {
+      "duration": "9h 5min.",
+      "mean_hr": 49.0,
+      "bedtime": "11:35 PM",
+      "waketime": "8:40 AM",
+      "score": 98.0
+    },
+    "28/03/2025": {
+      "duration": "6h 55min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:28 AM",
+      "waketime": "8:26 AM",
+      "score": 87.0
+    },
+    "29/08/2025": {
+      "duration": "6h 10min.",
+      "mean_hr": 48.0,
+      "bedtime": "1:02 AM",
+      "waketime": "7:33 AM",
+      "score": 73.0
+    },
+    "29/04/2025": {
+      "duration": "9h 55min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:01 PM",
+      "waketime": "8:59 AM",
+      "score": 89.0
+    },
+    "29 Dec.": {
+      "duration": "8h 47min.",
+      "mean_hr": 58.0,
+      "bedtime": "12:02 AM",
+      "waketime": "9:03 AM",
+      "score": 64.0
+    },
+    "29/02/2025": {
+      "duration": "4h 30min.",
+      "mean_hr": 57.0,
+      "bedtime": "3:58 AM",
+      "waketime": "8:37 AM",
+      "score": 51.0
+    },
+    "29/01/2025": {
+      "duration": "4h 29min.",
+      "mean_hr": 59.0,
+      "bedtime": "1:27 AM",
+      "waketime": "5:56 AM",
+      "score": 55.0
+    },
+    "29/07/2025": {
+      "duration": "7h 24min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:53 AM",
+      "waketime": "8:19 AM",
+      "score": 78.0
+    },
+    "29/06/2025": {
+      "duration": "6h 35min.",
+      "mean_hr": 48.0,
+      "bedtime": "2:01 AM",
+      "waketime": "8:47 AM",
+      "score": 80.0
+    },
+    "29/05/2025": {
+      "duration": "4h 26min.",
+      "mean_hr": 55.0,
+      "bedtime": "3:55 AM",
+      "waketime": "8:24 AM",
+      "score": 48.0
+    },
+    "29/03/2025": {
+      "duration": "8h 42min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:09 AM",
+      "waketime": "8:53 AM",
+      "score": 84.0
+    },
+    "3/08/2025": {
+      "duration": "6h 40min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:25 AM",
+      "waketime": "7:27 AM",
+      "score": 81.0
+    },
+    "3/04/2025": {
+      "duration": "7h 16min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:08 AM",
+      "waketime": "8:24 AM",
+      "score": 86.0
+    },
+    "3/02/2025": {
+      "duration": "6h 16min.",
+      "mean_hr": 57.0,
+      "bedtime": "1:42 AM",
+      "waketime": "8:04 AM",
+      "score": 72.0
+    },
+    "3/01/2025": {
+      "duration": "7h 11min.",
+      "mean_hr": 50.0,
+      "bedtime": "2:17 AM",
+      "waketime": "9:28 AM",
+      "score": 87.0
+    },
+    "3/07/2025": {
+      "duration": "7h 5min.",
+      "mean_hr": 52.0,
+      "bedtime": "1:16 AM",
+      "waketime": "8:25 AM",
+      "score": 81.0
+    },
+    "3/06/2025": {
+      "duration": "8h 42min.",
+      "mean_hr": 52.0,
+      "bedtime": "11:33 PM",
+      "waketime": "8:50 AM",
+      "score": 82.0
+    },
+    "3/05/2025": {
+      "duration": "7h 5min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:15 AM",
+      "waketime": "8:51 AM",
+      "score": 76.0
+    },
+    "3/03/2025": {
+      "duration": "7h 41min.",
+      "mean_hr": 59.0,
+      "bedtime": "1:14 AM",
+      "waketime": "8:58 AM",
+      "score": 49.0
+    },
+    "3/09/2025": {
+      "duration": "8h 49min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:18 AM",
+      "waketime": "9:07 AM",
+      "score": 91.0
+    },
+    "30/08/2025": {
+      "duration": "7h 46min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:37 AM",
+      "waketime": "8:26 AM",
+      "score": 82.0
+    },
+    "30/04/2025": {
+      "duration": "6h 55min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:59 PM",
+      "waketime": "7:41 AM",
+      "score": 77.0
+    },
+    "30 Dec.": {
+      "duration": "6h 36min.",
+      "mean_hr": 59.0,
+      "bedtime": "3:24 AM",
+      "waketime": "10:03 AM",
+      "score": 46.0
+    },
+    "30/01/2025": {
+      "duration": "6h 32min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:26 AM",
+      "waketime": "7:58 AM",
+      "score": 81.0
+    },
+    "30/07/2025": {
+      "duration": "7h 27min.",
+      "mean_hr": 49.0,
+      "bedtime": "11:39 PM",
+      "waketime": "8:13 AM",
+      "score": 78.0
+    },
+    "30/06/2025": {
+      "duration": "7h 19min.",
+      "mean_hr": 53.0,
+      "bedtime": "1:54 AM",
+      "waketime": "9:16 AM",
+      "score": 88.0
+    },
+    "30/05/2025": {
+      "duration": "8h 39min.",
+      "mean_hr": 49.0,
+      "bedtime": "11:16 PM",
+      "waketime": "8:01 AM",
+      "score": 93.0
+    },
+    "30/03/2025": {
+      "duration": "7h 19min.",
+      "mean_hr": 61.0,
+      "bedtime": "2:17 AM",
+      "waketime": "9:50 AM",
+      "score": 66.0
+    },
+    "31/08/2025": {
+      "duration": "7h 27min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:01 PM",
+      "waketime": "6:48 AM",
+      "score": 79.0
+    },
+    "31 Dec.": {
+      "duration": "6h 41min.",
+      "mean_hr": 58.0,
+      "bedtime": "2:39 AM",
+      "waketime": "9:21 AM",
+      "score": 76.0
+    },
+    "31/01/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "31/07/2025": {
+      "duration": "4h 57min.",
+      "mean_hr": 53.0,
+      "bedtime": "3:06 AM",
+      "waketime": "8:17 AM",
+      "score": 61.0
+    },
+    "31/05/2025": {
+      "duration": "7h 55min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:20 AM",
+      "waketime": "9:00 AM",
+      "score": 83.0
+    },
+    "31/03/2025": {
+      "duration": "9h 21min.",
+      "mean_hr": 54.0,
+      "bedtime": "1:48 AM",
+      "waketime": "11:09 AM",
+      "score": 90.0
+    },
+    "4/08/2025": {
+      "duration": "6h 35min.",
+      "mean_hr": 57.0,
+      "bedtime": "2:36 AM",
+      "waketime": "9:15 AM",
+      "score": 55.0
+    },
+    "4/04/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "4/02/2025": {
+      "duration": "4h 11min.",
+      "mean_hr": 65.0,
+      "bedtime": "5:23 AM",
+      "waketime": "9:48 AM",
+      "score": 32.0
+    },
+    "4/01/2025": {
+      "duration": "4h 50min.",
+      "mean_hr": 56.0,
+      "bedtime": "4:16 AM",
+      "waketime": "9:12 AM",
+      "score": 62.0
+    },
+    "4/07/2025": {
+      "duration": "7h 9min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:48 AM",
+      "waketime": "7:57 AM",
+      "score": 84.0
+    },
+    "4/06/2025": {
+      "duration": "7h 1min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:07 AM",
+      "waketime": "8:52 AM",
+      "score": 79.0
+    },
+    "4/05/2025": {
+      "duration": "4h 18min.",
+      "mean_hr": 54.0,
+      "bedtime": "3:22 AM",
+      "waketime": "7:58 AM",
+      "score": 55.0
+    },
+    "4/03/2025": {
+      "duration": "8h 9min.",
+      "mean_hr": 60.0,
+      "bedtime": "11:26 PM",
+      "waketime": "7:36 AM",
+      "score": 70.0
+    },
+    "4/09/2025": {
+      "duration": "7h 20min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:47 AM",
+      "waketime": "8:31 AM",
+      "score": 77.0
+    },
+    "5/08/2025": {
+      "duration": "8h 55min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:45 PM",
+      "waketime": "8:42 AM",
+      "score": 90.0
+    },
+    "5/04/2025": {
+      "duration": "6h 58min.",
+      "mean_hr": 55.0,
+      "bedtime": "2:17 AM",
+      "waketime": "9:15 AM",
+      "score": 81.0
+    },
+    "5/02/2025": {
+      "duration": "7h 58min.",
+      "mean_hr": 55.0,
+      "bedtime": "12:43 AM",
+      "waketime": "8:47 AM",
+      "score": 85.0
+    },
+    "5/01/2025": {
+      "duration": "8h 41min.",
+      "mean_hr": 53.0,
+      "bedtime": null,
+      "waketime": "9:09 AM",
+      "score": 85.0
+    },
+    "5/07/2025": {
+      "duration": "7h 17min.",
+      "mean_hr": 52.0,
+      "bedtime": "12:02 AM",
+      "waketime": "8:07 AM",
+      "score": 70.0
+    },
+    "5/06/2025": {
+      "duration": "8h 4min.",
+      "mean_hr": 49.0,
+      "bedtime": "12:14 AM",
+      "waketime": "8:24 AM",
+      "score": 94.0
+    },
+    "5/05/2025": {
+      "duration": "6h 34min.",
+      "mean_hr": 51.0,
+      "bedtime": "11:36 PM",
+      "waketime": "6:40 AM",
+      "score": 74.0
+    },
+    "5/03/2025": {
+      "duration": "7h 0min.",
+      "mean_hr": 59.0,
+      "bedtime": "1:04 AM",
+      "waketime": "8:26 AM",
+      "score": 48.0
+    },
+    "5/09/2025": {
+      "duration": "6h 24min.",
+      "mean_hr": 52.0,
+      "bedtime": "2:16 AM",
+      "waketime": "8:43 AM",
+      "score": 73.0
+    },
+    "6/08/2025": {
+      "duration": "5h 45min.",
+      "mean_hr": 48.0,
+      "bedtime": "1:52 AM",
+      "waketime": "7:47 AM",
+      "score": 74.0
+    },
+    "6/04/2025": {
+      "duration": "7h 16min.",
+      "mean_hr": 54.0,
+      "bedtime": "4:00 AM",
+      "waketime": "11:18 AM",
+      "score": 83.0
+    },
+    "6/02/2025": {
+      "duration": "6h 33min.",
+      "mean_hr": 55.0,
+      "bedtime": "1:36 AM",
+      "waketime": "8:10 AM",
+      "score": 77.0
+    },
+    "6/01/2025": {
+      "duration": "8h 45min.",
+      "mean_hr": 51.0,
+      "bedtime": "1:37 AM",
+      "waketime": "10:38 AM",
+      "score": 90.0
+    },
+    "6/07/2025": {
+      "duration": "8h 39min.",
+      "mean_hr": 50.0,
+      "bedtime": "1:09 AM",
+      "waketime": "10:13 AM",
+      "score": 80.0
+    },
+    "6/06/2025": {
+      "duration": "9h 8min.",
+      "mean_hr": 47.0,
+      "bedtime": "11:36 PM",
+      "waketime": "8:54 AM",
+      "score": 94.0
+    },
+    "6/05/2025": {
+      "duration": "8h 28min.",
+      "mean_hr": 55.0,
+      "bedtime": "11:41 PM",
+      "waketime": "8:24 AM",
+      "score": 67.0
+    },
+    "6/03/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "6/09/2025": {
+      "duration": "5h 36min.",
+      "mean_hr": 55.0,
+      "bedtime": "4:07 AM",
+      "waketime": "10:08 AM",
+      "score": 40.0
+    },
+    "7/08/2025": {
+      "duration": "8h 6min.",
+      "mean_hr": 51.0,
+      "bedtime": "12:09 AM",
+      "waketime": "8:17 AM",
+      "score": 91.0
+    },
+    "7/04/2025": {
+      "duration": "6h 36min.",
+      "mean_hr": 56.0,
+      "bedtime": "2:38 AM",
+      "waketime": "9:28 AM",
+      "score": 64.0
+    },
+    "7/02/2025": {
+      "duration": "4h 12min.",
+      "mean_hr": 57.0,
+      "bedtime": "12:18 AM",
+      "waketime": "4:30 AM",
+      "score": 50.0
+    },
+    "7/01/2025": {
+      "duration": "7h 30min.",
+      "mean_hr": 53.0,
+      "bedtime": "2:10 AM",
+      "waketime": "9:40 AM",
+      "score": 88.0
+    },
+    "7/07/2025": {
+      "duration": "6h 52min.",
+      "mean_hr": 55.0,
+      "bedtime": "1:32 AM",
+      "waketime": "8:25 AM",
+      "score": 56.0
+    },
+    "7/06/2025": {
+      "duration": "8h 39min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:42 PM",
+      "waketime": "8:24 AM",
+      "score": 82.0
+    },
+    "7/05/2025": {
+      "duration": "7h 40min.",
+      "mean_hr": 48.0,
+      "bedtime": "10:46 PM",
+      "waketime": "6:34 AM",
+      "score": 90.0
+    },
+    "7/03/2025": {
+      "duration": "9h 46min.",
+      "mean_hr": 61.0,
+      "bedtime": "10:35 PM",
+      "waketime": "8:58 AM",
+      "score": 73.0
+    },
+    "7/09/2025": {
+      "duration": "6h 41min.",
+      "mean_hr": 55.0,
+      "bedtime": "1:24 AM",
+      "waketime": "8:06 AM",
+      "score": 66.0
+    },
+    "8/08/2025": {
+      "duration": "6h 9min.",
+      "mean_hr": 48.0,
+      "bedtime": "1:49 AM",
+      "waketime": "8:00 AM",
+      "score": 75.0
+    },
+    "8/04/2025": {
+      "duration": "8h 53min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:45 PM",
+      "waketime": "8:43 AM",
+      "score": 83.0
+    },
+    "8/02/2025": {
+      "duration": "7h 31min.",
+      "mean_hr": 56.0,
+      "bedtime": "11:11 PM",
+      "waketime": "6:58 AM",
+      "score": 81.0
+    },
+    "8/01/2025": {
+      "duration": "9h 2min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:43 PM",
+      "waketime": "9:17 AM",
+      "score": 80.0
+    },
+    "8/07/2025": {
+      "duration": "8h 41min.",
+      "mean_hr": 53.0,
+      "bedtime": "11:49 PM",
+      "waketime": "8:30 AM",
+      "score": 94.0
+    },
+    "8/06/2025": {
+      "duration": "6h 47min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:26 AM",
+      "waketime": "7:13 AM",
+      "score": 79.0
+    },
+    "8/05/2025": {
+      "duration": "9h 21min.",
+      "mean_hr": 48.0,
+      "bedtime": "11:14 PM",
+      "waketime": "8:38 AM",
+      "score": 88.0
+    },
+    "8/03/2025": {
+      "duration": "6h 34min.",
+      "mean_hr": 65.0,
+      "bedtime": "1:34 AM",
+      "waketime": "8:10 AM",
+      "score": 70.0
+    },
+    "8/09/2025": {
+      "duration": "8h 56min.",
+      "mean_hr": 52.0,
+      "bedtime": "10:31 PM",
+      "waketime": "7:30 AM",
+      "score": 84.0
+    },
+    "9/08/2025": {
+      "duration": "8h 18min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:26 AM",
+      "waketime": "9:07 AM",
+      "score": 79.0
+    },
+    "9/04/2025": {
+      "duration": "7h 53min.",
+      "mean_hr": 47.0,
+      "bedtime": "12:15 AM",
+      "waketime": "8:27 AM",
+      "score": 90.0
+    },
+    "9/02/2025": {
+      "duration": "8h 27min.",
+      "mean_hr": 55.0,
+      "bedtime": "10:46 PM",
+      "waketime": "7:13 AM",
+      "score": 91.0
+    },
+    "9/01/2025": {
+      "duration": "7h 34min.",
+      "mean_hr": 50.0,
+      "bedtime": "12:51 AM",
+      "waketime": "8:26 AM",
+      "score": 91.0
+    },
+    "9/07/2025": {
+      "duration": "6h 53min.",
+      "mean_hr": 53.0,
+      "bedtime": "12:13 AM",
+      "waketime": "8:24 AM",
+      "score": 58.0
+    },
+    "9/06/2025": {
+      "duration": null,
+      "mean_hr": null,
+      "bedtime": null,
+      "waketime": null,
+      "score": null
+    },
+    "9/05/2025": {
+      "duration": "8h 41min.",
+      "mean_hr": 55.0,
+      "bedtime": "10:52 PM",
+      "waketime": "7:33 AM",
+      "score": 82.0
+    },
+    "9/03/2025": {
+      "duration": "8h 23min.",
+      "mean_hr": 60.0,
+      "bedtime": "11:12 PM",
+      "waketime": "7:35 AM",
+      "score": 85.0
+    },
+    "9/09/2025": {
+      "duration": "9h 14min.",
+      "mean_hr": 50.0,
+      "bedtime": "11:35 PM",
+      "waketime": "8:55 AM",
+      "score": 92.0
+    }
+  }
+}

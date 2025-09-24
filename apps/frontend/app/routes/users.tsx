@@ -11,7 +11,7 @@ export async function loader() {
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Utilisateurs" },
+    { title: "Patients" },
   ];
 }
 
@@ -41,7 +41,7 @@ export default function Users() {
             background: 'linear-gradient(45deg, #2428a5, #9a3bcd)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
-          }}>Rechercher un utilisateur</Title>
+          }}>Rechercher un patient</Title>
           <form
             onSubmit={(e) => {
               e.preventDefault();
@@ -73,7 +73,7 @@ export default function Users() {
               background: 'linear-gradient(135deg, rgba(36,40,165,0.06), rgba(154,59,205,0.06))',
               borderColor: 'var(--mantine-color-brand-3)'
             }}>
-              <Text c="dimmed">Aucun utilisateur affiché. Lancez une recherche pour voir des résultats.</Text>
+              <Text c="dimmed">Aucun patient affiché. Lancez une recherche pour voir des résultats.</Text>
             </Card>
           </Box>
         ) : (

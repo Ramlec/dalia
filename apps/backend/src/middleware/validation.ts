@@ -6,6 +6,7 @@ export function validateParams<T>(schema: ZodSchema<T>) {
     try {
       const validated = schema.parse(request.params)
 
+
       request.params = validated as any
     } catch (error) {
       if (error instanceof ZodError) {

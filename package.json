@@ -16,8 +16,9 @@
     "dev:backend": "npm run dev -w apps/backend",
     "build": "npm run build -w apps/backend && npm run build -w apps/frontend",
     "start": "npm run start:backend & npm run start:frontend & wait",
-    "start:backend": "npm run start -w apps/backend",
-    "start:frontend": "npm run start -w apps/frontend"
+    "start:backend": "npm run db:setup -w apps/backend && npm run start -w apps/backend",
+    "start:frontend": "npm run start -w apps/frontend",
+    "db:setup": "npm run db:setup -w apps/backend"
   },
   "dependencies": {
     "react": "^19.1.1",

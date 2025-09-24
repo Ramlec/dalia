@@ -1,18 +1,23 @@
-import { FastifyReply, FastifyRequest } from 'fastify'
-import { openDatabase, dbGet } from '../../db'
+import { FastifyRequest, FastifyReply } from 'fastify'
+import { dbGet, openDatabase } from '../../db.js'
 
-export async function getUserSleep(req: FastifyRequest, reply: FastifyReply) {
-  const { userId, sleepId } = req.params as { userId: number; sleepId: number }
+export default async function getUserSleep(req: FastifyRequest, res: FastifyReply) {
+  const { userId, sleepId } = req.params as { userId: string; sleepId: string }
   const db = openDatabase()
-
-  const row = await dbGet(
-    db,
-    `SELECT id, user_id, date, duration, duration_min, mean_hr, bedtime, waketime, score, bedtime_full, waketime_full
-     FROM sleeps
-     WHERE user_id = ? AND id = ?
-     LIMIT 1`,
-    [userId, sleepId]
-  )
-  if (!row) return reply.code(404).send({ error: 'Sleep not found' })
-  return row
+  try {
+    const sleep = await dbGet<any>(
+      db,
+      `SELECT s.* FROM sleeps s WHERE s.id = ? AND s.user_id = ?`,
+      [sleepId, userId]
+    )
+    if (!sleep) {
+      return res.code(404).send({ message: 'Sleep not found' })
+    }
+    return res.send(sleep)
+  } catch (err) {
+    req.log.error(err)
+    return res.code(500).send({ message: 'Internal Server Error' })
+  } finally {
+    db.close()
+  }
 }

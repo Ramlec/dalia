@@ -1,6 +1,17 @@
-const BASE_URL = (typeof window === 'undefined')
-  ? process.env.VITE_API_URL || 'http://localhost:3000'
-  : 'http://localhost:3000'
+const getBaseUrl = () => {
+  const isServer = typeof window === 'undefined'
+  if (isServer) {
+    // SSR: utiliser l'URL interne Docker (non exposée au client)
+    return process.env.SERVER_API_URL || process.env.VITE_API_URL || 'http://backend:3000'
+  }
+  // Client: utiliser l'URL publique (localhost ou domaine)
+  const publicEnv = (import.meta as any).env?.VITE_PUBLIC_API_URL as string | undefined
+  if (publicEnv && publicEnv.length > 0) return publicEnv
+  // Fallback: même hôte, port 3000
+  return `${window.location.protocol}//${window.location.hostname}:3000`
+}
+
+const BASE_URL = getBaseUrl()
 
 export interface User {
   id: number
@@ -31,4 +42,19 @@ export async function apiFetch<T>(path: string): Promise<T> {
 
 export const fetchUsers = () => apiFetch<User[]>('/users')
 export const fetchUser = (id: number) => apiFetch<User>(`/users/${id}`)
-export const fetchUserSleeps = (id: number) => apiFetch<Sleep[] | { data: Sleep[] }>(`/users/${id}/sleeps`).then((d:any)=> Array.isArray(d)? d : d.data)
+
+export function fetchUserSleeps(
+  id: number,
+  opts?: { dateFrom?: string; dateTo?: string; page?: number; limit?: number; sortBy?: string; sortOrder?: string }
+): Promise<Sleep[] | { data: Sleep[] }> {
+  const params = new URLSearchParams()
+  if (opts?.dateFrom) params.set('dateFrom', opts.dateFrom)
+  if (opts?.dateTo) params.set('dateTo', opts.dateTo)
+  if (opts?.page) params.set('page', String(opts.page))
+  if (opts?.limit) params.set('limit', String(opts.limit))
+  if (opts?.sortBy) params.set('sortBy', opts.sortBy)
+  if (opts?.sortOrder) params.set('sortOrder', opts.sortOrder)
+  const qs = params.toString()
+  const path = qs ? `/users/${id}/sleeps?${qs}` : `/users/${id}/sleeps`
+  return apiFetch(path)
+}

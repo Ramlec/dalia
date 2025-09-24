@@ -78,6 +78,13 @@ async function insertSleep(db: Database.Database, userId: number, sleep: Transfo
 
 async function main(): Promise<void> {
   const dbPath = path.resolve(process.cwd(), 'data/app.db')
+
+  // If DB file already exists, do nothing (idempotent for Docker builds/run)
+  try {
+    await fs.access(dbPath)
+    console.log('DB already exists, skipping initialization:', dbPath)
+    return
+  } catch {}
   
   // Ensure data directory exists
   const dataDir = path.dirname(dbPath)
@@ -92,7 +99,7 @@ async function main(): Promise<void> {
     console.log('Lecture des données transformées...')
     const data = await readTransformedData()
     
-    console.log('Insertion de l\'utilisateur...')
+    console.log("Insertion de l'utilisateur...")
     const userId = await insertUser(db, data.user)
     console.log(`Utilisateur créé avec l'ID: ${userId}`)
     
@@ -109,7 +116,7 @@ async function main(): Promise<void> {
     console.log(`Insertion terminée: ${inserted} enregistrements de sommeil insérés`)
     
   } catch (err) {
-    console.error('Erreur lors de l\'insertion:', err)
+    console.error("Erreur lors de l'insertion:", err)
     throw err
   } finally {
     db.close()

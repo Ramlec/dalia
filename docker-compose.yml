@@ -8,18 +8,24 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-      - DATABASE_URL=file:/data/app.db
+      - DATABASE_URL=file:/app/data/app.db
     volumes:
-      - backend-data:/data
+      - backend-data:/app/data
+      - ./apps/backend/data/homework_data.json:/app/data/homework_data.json:ro
 
   frontend:
     build:
       context: ./apps/frontend
       dockerfile: Dockerfile
+      args:
+        VITE_PUBLIC_API_URL: "http://localhost:3000"
+        SERVER_API_URL: "http://backend:3000"
     ports:
-      - "5173:5173"
+      - "5173:3000"
     environment:
       - NODE_ENV=production
+      - VITE_PUBLIC_API_URL=http://localhost:3000
+      - SERVER_API_URL=http://backend:3000
     depends_on:
       - backend
 

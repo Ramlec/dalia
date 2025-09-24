@@ -148,7 +148,7 @@ async function ensureDir(dirPath: string): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  const inputPath = path.resolve(process.cwd(), '../../homework_data.json')
+  const inputPath = path.resolve(process.cwd(), 'data/homework_data.json')
   const outDir = path.resolve(process.cwd(), 'tmp')
   const outPath = path.join(outDir, 'transformed.json')
 

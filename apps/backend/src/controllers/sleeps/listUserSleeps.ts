@@ -1,68 +1,49 @@
-import { FastifyReply, FastifyRequest } from 'fastify'
-import { openDatabase, dbAll, dbGet } from '../../db'
+import { FastifyRequest, FastifyReply } from 'fastify'
+import { dbAll, openDatabase } from '../../db.js'
 
-export async function listUserSleeps(req: FastifyRequest, reply: FastifyReply) {
-  const { userId } = req.params as { userId: number }
-  const query = req.query as {
-    page: number
-    limit: number
-    sortBy: string
-    sortOrder: 'asc' | 'desc'
-    minScore?: number
-    maxScore?: number
-    dateFrom?: string
-    dateTo?: string
-  }
-  
+export default async function listUserSleeps(req: FastifyRequest, res: FastifyReply) {
+  const { userId } = req.params as { userId: string }
+  const { dateFrom, dateTo, page = '1', pageSize = '20', sort = 'desc' } = req.query as Record<string, string>
+
+  const pageNum = Math.max(1, parseInt(page, 10) || 1)
+  const sizeNum = Math.min(100, Math.max(1, parseInt(pageSize, 10) || 20))
+  const offset = (pageNum - 1) * sizeNum
+  const sortDir = sort?.toLowerCase() === 'asc' ? 'ASC' : 'DESC'
+
   const db = openDatabase()
+  try {
+    const filters: string[] = []
+    const params: any[] = [userId]
 
-  const user = await dbGet(db, 'SELECT id FROM users WHERE id = ? LIMIT 1', [userId])
-  if (!user) return reply.code(404).send({ error: 'User not found' })
-
-  // Construction de la requête avec filtres
-  let whereClause = 'WHERE user_id = ?'
-  const params: any[] = [userId]
-
-  if (query.minScore !== undefined) {
-    whereClause += ' AND score >= ?'
-    params.push(query.minScore)
-  }
-  if (query.maxScore !== undefined) {
-    whereClause += ' AND score <= ?'
-    params.push(query.maxScore)
-  }
-  if (query.dateFrom) {
-    whereClause += ' AND date >= ?'
-    params.push(query.dateFrom)
-  }
-  if (query.dateTo) {
-    whereClause += ' AND date <= ?'
-    params.push(query.dateTo)
-  }
-
-  // Tri
-  const orderBy = `ORDER BY ${query.sortBy} ${query.sortOrder.toUpperCase()}`
-
-  // Pagination
-  const offset = (query.page - 1) * query.limit
-  const limitClause = `LIMIT ${query.limit} OFFSET ${offset}`
-
-  const rows = await dbAll(
-    db,
-    `SELECT id, user_id, date, duration, duration_min, mean_hr, bedtime, waketime, score, bedtime_full, waketime_full
-     FROM sleeps
-     ${whereClause}
-     ${orderBy}
-     ${limitClause}`,
-    params
-  )
-  
-  return {
-    data: rows,
-    pagination: {
-      page: query.page,
-      limit: query.limit,
-      total: rows.length
+    if (dateFrom) {
+      filters.push('(datetime(bedtime_full) >= datetime(?))')
+      params.push(dateFrom)
     }
+    if (dateTo) {
+      filters.push('(datetime(bedtime_full) <= datetime(?))')
+      params.push(dateTo)
+    }
+
+    const where = filters.length ? `AND ${filters.join(' AND ')}` : ''
+
+    const rows = await dbAll<any>(
+      db,
+      `SELECT s.*
+       FROM sleeps s
+       WHERE s.user_id = ? ${where}
+       ORDER BY datetime(s.bedtime_full) ${sortDir}
+       LIMIT ? OFFSET ?`,
+      [...params, sizeNum, offset]
+    )
+
+    return res.send({
+      data: rows,
+      pagination: { page: pageNum, pageSize: sizeNum }
+    })
+  } catch (err) {
+    req.log.error(err)
+    return res.code(500).send({ message: 'Internal Server Error' })
+  } finally {
+    db.close()
   }
 }

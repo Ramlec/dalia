@@ -1,22 +1,27 @@
-FROM node:20-alpine AS development-dependencies-env
-COPY . /app
+# Frontend Dockerfile
+FROM node:20-alpine AS base
 WORKDIR /app
-RUN npm ci
 
-FROM node:20-alpine AS production-dependencies-env
-COPY ./package.json package-lock.json /app/
-WORKDIR /app
-RUN npm ci --omit=dev
+ARG VITE_PUBLIC_API_URL
+ARG SERVER_API_URL
+ENV VITE_PUBLIC_API_URL=${VITE_PUBLIC_API_URL}
+ENV SERVER_API_URL=${SERVER_API_URL}
 
-FROM node:20-alpine AS build-env
-COPY . /app/
-COPY --from=development-dependencies-env /app/node_modules /app/node_modules
-WORKDIR /app
+FROM base AS deps
+COPY package.json package-lock.json* ./
+COPY ../../package.json ../../package-lock.json* /app/
+RUN npm ci --ignore-scripts || npm install --no-audit --no-fund
+
+FROM base AS build
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
 RUN npm run build
 
-FROM node:20-alpine
-COPY ./package.json package-lock.json /app/
-COPY --from=production-dependencies-env /app/node_modules /app/node_modules
-COPY --from=build-env /app/build /app/build
+FROM base AS runner
+ENV NODE_ENV=production
 WORKDIR /app
+COPY --from=build /app/build ./build
+COPY package.json ./package.json
+RUN npm install --omit=dev --no-audit --no-fund && npm cache clean --force
+EXPOSE 3000
 CMD ["npm", "run", "start"]

@@ -122,7 +122,7 @@ function percentChangeCircular(currMin: number | null, prevMin: number | null): 
 }
 
 function DeltaPct({ value, inverse = false }: { value: number | null, inverse?: boolean }) {
-  if (value == null || !Number.isFinite(value)) return <Text c="dimmed" size="sm">—</Text>
+  if (value == null || !Number.isFinite(value)) return <Text c="dimmed" size="sm" span>—</Text>
   const better = inverse ? value < 0 : value > 0
   const color = better ? 'teal' : 'red'
   const sign = value > 0 ? '+' : ''

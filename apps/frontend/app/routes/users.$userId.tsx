@@ -126,7 +126,7 @@ function DeltaPct({ value, inverse = false }: { value: number | null, inverse?: 
   const better = inverse ? value < 0 : value > 0
   const color = better ? 'teal' : 'red'
   const sign = value > 0 ? '+' : ''
-  return <Text size="sm" c={color}>{sign}{Math.round(value)}%</Text>
+  return <Text size="sm" c={color} span>{sign}{Math.round(value)}%</Text>
 }
 
 export default function UserDetail() {
@@ -211,27 +211,32 @@ export default function UserDetail() {
         <Card>
           <Text c="dimmed" size="sm">Durée moyenne</Text>
           <Title order={3}>{current.meanDuration != null ? `${formatMinutesToHHMM(current.meanDuration)}` : '—'}</Title>
-          <Text c="dimmed" size="sm">vs {previous.meanDuration != null ? formatMinutesToHHMM(previous.meanDuration) : '—'} · <DeltaPct value={pctDuration} /></Text>
+          <Text c="dimmed" size="sm">vs {previous.meanDuration != null ? formatMinutesToHHMM(previous.meanDuration) : '—'} (<DeltaPct value={pctDuration} />)</Text>
+          <Text c="dimmed" size="xs" fs="italic">calculé sur la période précédente</Text>
         </Card>
         <Card>
           <Text c="dimmed" size="sm">FC moyenne</Text>
           <Title order={3}>{current.meanHr != null ? `${Math.round(current.meanHr)} bpm` : '—'}</Title>
-          <Text c="dimmed" size="sm">vs {previous.meanHr != null ? `${Math.round(previous.meanHr)} bpm` : '—'} · <DeltaPct value={pctHr} inverse /></Text>
+          <Text c="dimmed" size="sm">vs {previous.meanHr != null ? `${Math.round(previous.meanHr)} bpm` : '—'} (<DeltaPct value={pctHr} inverse />)</Text>
+          <Text c="dimmed" size="xs" fs="italic">calculé sur la période précédente</Text>
         </Card>
         <Card>
           <Text c="dimmed" size="sm">Heure moyenne coucher</Text>
           <Title order={3}>{current.meanBed ?? '—'}</Title>
-          <Text c="dimmed" size="sm">vs {previous.meanBed ?? '—'} · <DeltaPct value={pctBed} /></Text>
+          <Text c="dimmed" size="sm">vs {previous.meanBed ?? '—'} (<DeltaPct value={pctBed} />)</Text>
+          <Text c="dimmed" size="xs" fs="italic">calculé sur la période précédente</Text>
         </Card>
         <Card>
           <Text c="dimmed" size="sm">Heure moyenne lever</Text>
           <Title order={3}>{current.meanWake ?? '—'}</Title>
-          <Text c="dimmed" size="sm">vs {previous.meanWake ?? '—'} · <DeltaPct value={pctWake} /></Text>
+          <Text c="dimmed" size="sm">vs {previous.meanWake ?? '—'} (<DeltaPct value={pctWake} />)</Text>
+          <Text c="dimmed" size="xs" fs="italic">calculé sur la période précédente</Text>
         </Card>
         <Card>
           <Text c="dimmed" size="sm">Score moyen</Text>
           <Title order={3}>{current.meanScore != null ? Math.round(current.meanScore) : '—'}</Title>
-          <Text c="dimmed" size="sm">vs {previous.meanScore != null ? Math.round(previous.meanScore) : '—'} · <DeltaPct value={pctScore} /></Text>
+          <Text c="dimmed" size="sm">vs {previous.meanScore != null ? Math.round(previous.meanScore) : '—'} (<DeltaPct value={pctScore} />)</Text>
+          <Text c="dimmed" size="xs" fs="italic">calculé sur la période précédente</Text>
         </Card>
       </SimpleGrid>
 
